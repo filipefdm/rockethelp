@@ -5,7 +5,6 @@ import {
   StyledProps,
   useTheme,
 } from "native-base";
-import colors from "native-base/lib/typescript/theme/base/colors";
 import { CaretLeft } from "phosphor-react-native";
 import { useNavigation } from "@react-navigation/native";
 
