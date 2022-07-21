@@ -6,7 +6,7 @@ import {
   CircleWavyCheck,
   Hourglass,
   DesktopTower,
-  Clipboard,
+  ClipboardText,
 } from "phosphor-react-native";
 
 import { OrderFirestoreDTO } from "../DTOs/OrderFirestoreDTO";
@@ -133,13 +133,13 @@ export function Details() {
           title="equipamento"
           description={`Patrimônio ${order.patrimony}`}
           icon={DesktopTower}
-          footer={order.when}
         />
 
         <CardDetails
           title="descrição do problema"
           description={order.description}
-          icon={Clipboard}
+          icon={ClipboardText}
+          footer={`Registrado em ${order.when}`}
         />
 
         <CardDetails
